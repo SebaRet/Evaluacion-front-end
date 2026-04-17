@@ -6,8 +6,16 @@
     text-decoration: none;
 }
 
+body {
+    background: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+/* Menu */
+
 header {
-    background: rgb(21, 51, 99);
+    background: rgb(19, 45, 88);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -22,13 +30,6 @@ header {
     gap: 2.5rem;
 }
 
-body {
-    background: linear-gradient(90deg,
-    rgb(39, 54, 90), rgb(84, 118, 146));
-    font-family: "Roboto", sans-serif;
-    color: whitesmoke;
-}
-
 .navbar a {
     color: whitesmoke;
     font-weight: bold;
@@ -38,27 +39,10 @@ body {
     color: cyan;
 }
 
-.sobre-mi {
-    margin: 3rem auto;
-    max-width: 1000px;
-}
-
-.nombre {
-    color: orange;
-}
-
-.sobre-mi h3 {
-    font-weight: normal;
-}
-
-.sobre-mi h2 {
-    font-size: 2rem;
-}
-
 .Logo {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -66,4 +50,84 @@ body {
     padding: .3rem .4rem;
     background-color: rgb(233, 117, 8);
     border-radius: .5rem;
+}
+
+/* Sobre Mí */
+
+.sobre-mi {
+    padding: 4rem 10rem;
+    background: linear-gradient(90deg,
+    rgb(19, 45, 88), rgb(84, 118, 146));
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.foto-usuario img {
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 10rem;
+}
+
+.nombre {
+    color: orange;
+}
+
+.div-sobre-mi h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.div-sobre-mi p {
+    font-style: italic;
+}
+
+.div-sobre-mi {
+    max-width: 900px;
+}
+
+/* Más sobre mi */
+
+.titulo-sobremi {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: slategrey;
+}
+
+.mas-sobre-mi {
+    color: darkslategrey;
+}
+
+.desc-breve {
+    background: white;
+    border-radius: 1rem;
+    max-width: 300px;
+    padding: 2rem 1.2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+}
+
+.desc-breve p {
+    color: gray;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.desc {
+    color: black;
+    font-weight: bold;
+}
+
+.frase {
+    padding: 1rem;
+    margin: 1.5rem; 
+    max-width: 600px;
+    background: rgba(8, 128, 197, 0.308);
+}
+
+.sobre-mi-desc {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
 }

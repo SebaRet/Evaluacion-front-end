@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,6 +19,7 @@
             <h2 class="logo-L">SR</h2>
             <h2>Sebastián Retamal Gutierrez</h2>
         </div>
+
         <nav class="navbar">
             <ul>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -29,18 +31,57 @@
     </header>
 
     <main>
-        <section>
-            <article id="sobre-mi" class="sobre-mi">
-                <h2>Hola, soy <color class="nombre">Sebastían Matias Retamal Gutierrez</color></h2>
-                <br>
-                <h3>Estudainte de Desarrollo Web</h3>
-                <br>
-                <p>Apasionado por crear experiancias web modernas y accesibles.
-                    Actualmente cursando la carrera de <strong>Analista Programador</strong>
-                    en el instituto Técnico.
-                </p>
-            </article>
+        <section id="sobre-mi">
+            <div class="sobre-mi">
+                <div class="div-sobre-mi">
+                    <h2>Hola, soy <span class="nombre">Sebastían Retamal Gutierrez</span>
+                    </h2>
+                    <h3>Estudainte de Programacion</h3>
+                    <p>Apasionado por crear experiancias web modernas y accesibles.
+                        Actualmente cursando la carrera de <strong>Analista Programador</strong>
+                        en el instituto Técnico <strong>Inacap</strong> sede Concepcion Talcahuano.
+                </div>
+
+                <div class="foto-usuario">
+                    <img src="./asset/imagen-usuario.png" alt="img-usuario">
+                </div>
+            </div>
+
+            <h3 class="titulo-sobremi">Conóceme un poco más</h3>
+
+            <div class="sobre-mi-desc">
+                <div class="mas-sobre-mi">
+                    <p>Mi nombre es <strong>Sebastián Matías Retamal Gutierrez</strong> y soy estudiante de Programación.
+                    Desde que descubrí la programación, me apasiona crear sitios web  que sean tanto funcionales
+                    como estéticamente agradables.</p>
+                    <br>
+                    <p>Actualmente me encuentro aprendiendo HTML5, CSS3 y próximamente JavaScript, con el objetivo de
+                        convertirme en un desarrollador Front-end profesional.</p>
+                        <div class="frase">
+                            <p>El único modo de hacer un gran trabajo es amar lo que haces. -- Steve Jobs</p>
+                        </div>
+                </div>
+
+                <div class="desc-breve">
+                    <h3>Datos Personales</h3>
+                    <br>
+                    <p><span class="desc">Edad:</span> 19 años</p>
+                    <hr>
+                    <p><span class="desc">Ciudad:</span> Talcahuano, Chile</p>
+                    <hr>
+                    <p><span class="desc">Email:</span> sebaretamal.g@gmail.com</p>
+                    <hr>
+                    <p><span class="desc">Carrera:</span> Analista Programador</p>
+                    <hr>
+                    <p><span class="desc">Intereses:</span> Escuchar música, videojuegos, dormir, dibujar</p>
+                </div>
+            </div>
         </section>
+
+        <section id="habilidades">
+
+        </section>
+
     </main>
 
 </body>
