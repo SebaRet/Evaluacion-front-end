@@ -12,7 +12,9 @@ body {
     color: black;
 }
 
-/* Menu */
+/*=====================*/
+    /* Menu */
+/*=====================*/
 
 header {
     background: rgb(19, 45, 88);
@@ -27,16 +29,17 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .navbar a {
     color: whitesmoke;
     font-weight: bold;
+    transition: color .2s;
 }
 
 .navbar a:hover {
-    color: cyan;
+    color: rgb(52, 191, 255);
 }
 
 .Logo {
@@ -52,7 +55,9 @@ header {
     border-radius: .5rem;
 }
 
-/* Sobre Mí */
+/*=====================*/
+    /* Sobre Mí */
+/*=====================*/
 
 .sobre-mi {
     padding: 4rem 10rem;
@@ -87,17 +92,19 @@ header {
     max-width: 900px;
 }
 
-/* Más sobre mi */
+/*=====================*/
+    /* Más sobre mi */
+/*=====================*/
 
 .titulo-sobremi {
     margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: slategrey;
 }
 
 .mas-sobre-mi {
-    color: darkslategrey;
+    color: rgb(41, 50, 68);
 }
 
 .desc-breve {
@@ -105,6 +112,7 @@ header {
     border-radius: 1rem;
     max-width: 300px;
     padding: 2rem 1.2rem;
+    margin-left: 5rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
 }
 
@@ -115,7 +123,7 @@ header {
 }
 
 .desc {
-    color: black;
+    color: rgb(29, 39, 59);
     font-weight: bold;
 }
 
@@ -130,4 +138,50 @@ header {
     margin-left: 5rem;
     margin-right: 5rem;
     display: flex;
+    margin-bottom: 5rem;
 }
+
+/*=====================*/
+    /* Tabla */
+/*=====================*/
+
+table {
+    width: 60%;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
+    background: white;
+    margin-bottom: 5rem;
+}
+
+th, td {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(44, 72, 114);
+    color: whitesmoke;
+}
+
+tr:nth-child(even) {
+    background: rgb(207, 241, 255);
+}
+
+/*=====================*/
+    /* Habilidades */
+/*=====================*/
+
+.titulo-habilidades {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: slategrey;
+}
+
+
+
