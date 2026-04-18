@@ -183,5 +183,29 @@ tr:nth-child(even) {
     color: slategrey;
 }
 
+.caja {
+    background: white;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    max-width: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
+}
 
+.caja-habilidades {
+    display: flex;
+    justify-content: center;
+}
 
+.caja h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.competencias li {
+    list-style: disc;
+}
+
+.aprendizaje li {
+    list-style: decimal;
+}
