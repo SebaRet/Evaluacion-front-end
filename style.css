@@ -12,6 +12,13 @@ body {
     color: black;
 }
 
+.titulo-secciones {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: slategrey;
+}
+
 /*=====================*/
     /* Menu */
 /*=====================*/
@@ -96,13 +103,6 @@ header {
     /* Más sobre mi */
 /*=====================*/
 
-.titulo-sobremi {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    color: slategrey;
-}
-
 .mas-sobre-mi {
     color: rgb(41, 50, 68);
 }
@@ -176,17 +176,10 @@ tr:nth-child(even) {
     /* Habilidades */
 /*=====================*/
 
-.titulo-habilidades {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    color: slategrey;
-}
-
 .caja {
     background: white;
     margin: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem 5rem 1rem 3rem;
     max-width: 400px;
     border-radius: 1rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
@@ -202,10 +195,53 @@ tr:nth-child(even) {
     margin-bottom: 1rem;
 }
 
+.caja li {
+    margin-bottom: 1rem;
+}
+
 .competencias li {
     list-style: disc;
 }
 
 .aprendizaje li {
     list-style: decimal;
+}
+
+/*=====================*/
+    /* Proyectos */
+/*=====================*/
+
+.img-proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(90deg,
+    rgb(48, 124, 196), rgb(100, 10, 151));
+}
+
+.img-proyecto img {
+    width: 80px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.proyecto {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+}
+
+.info-proyecto {
+    padding: .5rem 5rem 2rem 1.5rem;
+}
+
+.info-proyecto h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
