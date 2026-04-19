@@ -13,10 +13,20 @@ body {
 }
 
 .titulo-secciones {
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     text-align: center;
     color: slategrey;
+}
+
+.titulo-seccion {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    background: rgb(73, 73, 107);
+    padding: 1rem;
 }
 
 /*=====================*/
@@ -155,7 +165,7 @@ table {
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
     background: white;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 th, td {
@@ -244,4 +254,123 @@ tr:nth-child(even) {
 .info-proyecto h2 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+}
+
+/*=====================*/
+    /* Contacto */
+/*=====================*/
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .4rem;
+    margin-top: .4rem;
+}
+
+input[type="email"],
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: .5rem;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: .3rem;
+    max-width: 400px;
+}
+
+button {
+    padding: .5rem 8rem;
+    background: rgb(248, 126, 82);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .25rem;
+    display: flex;
+}
+
+.contacto {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* Informacion de contacto */
+
+.info-contacto {
+    background: rgb(242, 245, 247);
+    border-radius: 1rem;
+    border: 2px solid rgb(216, 216, 216);
+    padding: 2rem 1rem;
+}
+
+.info-contacto h3 {
+    margin-bottom: 2rem;
+    color: rgb(41, 47, 65);
+}
+
+.info-contacto a  {
+    color: rgb(73, 72, 122);
+    font-weight: bold;
+}
+
+.info-contacto p {
+    margin-bottom: 1rem;
+    color: rgb(68, 78, 100);
+}
+
+/* Footer */
+
+footer {
+    background: rgb(19, 45, 88);
+    color: gainsboro;
+    padding: 4rem 4rem 1rem 4rem;
+    margin-top: 7rem;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.logo-footer {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-f {
+    padding: .3rem .4rem;
+    background-color: rgb(233, 117, 8);
+    border-radius: .5rem;
+}
+
+.redes-l {
+    padding: .3rem .4rem;
+    background-color: rgba(127, 81, 255, 0.342);
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+
+.caja-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.redes {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.redes a {
+    color: white;
+    font-weight: bold;
+}
+
+footer hr {
+    opacity: 20%;
 }

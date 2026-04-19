@@ -24,8 +24,8 @@
             <ul>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -47,6 +47,7 @@
                 </div>
             </div>
 
+            <h2 class="titulo-seccion">Contacto</h2>
             <h3 class="titulo-secciones">Conóceme un poco más</h3>
 
             <div class="sobre-mi-desc">
@@ -77,8 +78,9 @@
                 </div>
             </div>
         </section>
-
+        
         <section id="habilidades">
+            <h2 class="titulo-seccion">Habilidades</h2>
             <h3 class="titulo-secciones">Tecnologías y competencias</h3>
             <table>
                 <thead>
@@ -139,6 +141,7 @@
         </section>
         
         <section id="proyectos">
+            <h2 class="titulo-seccion">Proyectos</h2>
             <h3 class="titulo-secciones">Algúnos de mis trabajos</h3>
 
             <div class="proyectos">
@@ -169,10 +172,62 @@
                     </div>
                 </article>
             </div>
-
         </section>
         
+        <section id="contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3 class="titulo-secciones">Algúnos de mis trabajos</h3>
+            <div class="contacto">
+                <form>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre"
+                    placeholder="Nombre">
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                    placeholder="correo@email.com">
+                    
+                    <label for="asunto">Asunto</label>
+                    <select name="asunto" id="asunto">
+                        <option value="" selected disabled>Selecciona un asunto</option>
+                        <option value="Consultas">Realizar una consulta</option>
+                        <option value="Sugerencias">Realizar sugerencias</option>
+                        <option value="Otro">Otro asunto</option>
+                    </select>
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="5" 
+                    placeholder="Escriba un mensaje"></textarea>
+    
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+                
+                <div class="info-contacto">
+                    <h3>Información de contacto</h3>
+                    <ul>
+                        <li><p>sebaretamal.g@gmail.com</p></li>
+                        <li><p>Talcahuano, Chile</p></li>
+                        <li><a target="_blank" href="https://github.com/SebaRet">Mi perfil de GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="caja-footer">
+            <div class="logo-footer">
+                <h3 class="logo-f">SR</h3>
+                <h3>Sebastián Retamal Gutierrez</h3>
+            </div>
+            <div class="redes">
+                <a class="redes-l" target="_blank" href="">GH</a>
+                <a class="redes-l" target="_blank" href="">GM</a>
+            </div>
+        </div>
+        <hr>
+        <p>© 2026 Sebastián Matías Retamal Gutierrez. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 
