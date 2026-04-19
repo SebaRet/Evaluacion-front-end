@@ -158,7 +158,6 @@ header {
 table {
     width: 60%;
     font-size: 1.2rem;
-    margin: 1rem auto;
     border-collapse: separate;
     border-spacing: 0;
     border-radius: 15px;
@@ -171,6 +170,11 @@ table {
 th, td {
     padding: 10px 30px;
     text-align: left;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
 }
 
 thead {
@@ -237,6 +241,7 @@ tr:nth-child(even) {
 .proyectos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
@@ -248,7 +253,7 @@ tr:nth-child(even) {
 }
 
 .info-proyecto {
-    padding: .5rem 5rem 2rem 1.5rem;
+    padding: 1.5rem;
 }
 
 .info-proyecto h2 {
@@ -444,9 +449,11 @@ button:active {
     transition: .2s;
 }
 
+/*=====================*/
 /* Diseño Responsive */
+/*=====================*/
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     
     body {
         overflow-x: hidden;
@@ -464,6 +471,7 @@ button:active {
 
     header {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .navbar ul {
@@ -478,7 +486,6 @@ button:active {
 
     .contacto {
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
 
@@ -530,5 +537,7 @@ button:active {
         align-items: center;
     }
 
+    .tabla {
+        overflow-x: auto;
+    }
 }
-
