@@ -374,3 +374,72 @@ footer p {
 footer hr {
     opacity: 20%;
 }
+
+/*=====================*/
+    /* Retoques */
+/*=====================*/
+
+/* Colores, Hover y Active */
+
+.dominio-bajo {
+    color: orange;
+    font-weight: bold;
+}
+
+.dominio-nulo {
+    color: red;
+    font-weight: bold;
+}
+
+.frase {
+    border-left: .4rem solid rgb(0, 119, 255);
+}
+
+
+button {
+    transition: background-color .2s;
+}
+button:hover {
+    background-color: rgb(16, 136, 206);
+}
+button:active {
+    background-color: rgb(14, 110, 165);
+}
+
+
+.navbar a:active {
+    color: rgb(149, 223, 120);
+}
+
+
+.info-contacto a:hover {
+    color: rgb(58, 135, 223);
+}
+.info-contacto a:active {
+    color: rgb(50, 116, 192);
+}
+.info-contacto a {
+    transition: color .2s;
+}
+
+
+.info-proyecto a:hover {
+    color: #1997eb;
+}
+.info-proyecto a:active {
+    color: #5e8db9;
+}
+.info-proyecto a {
+    transition: color .2s;
+}
+
+
+.redes-l:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.redes-l:active {
+    background-color: rgba(207, 200, 200, 0.514);
+}
+.redes-l {
+    transition: .2s;
+}
